@@ -1,28 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 
-/*for selecting text background*/
-::selection {
+
+::selection { 
   background: rgb(255,255,102);
 }
 
 html {
     height: 100%;
     background-color: #86C2BC;
-
 }
 
 body {
     color: #3d3d3d;
 }
-
-/*body {
-	padding: 5% 2em 5em 2em;
-	position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}*/
 
 
 #jumbotron {
@@ -32,7 +22,6 @@ body {
     transform: translateY(-50%);
     width: 100%;
     align-self: center;
-
 }
 
 
@@ -44,7 +33,6 @@ body {
   letter-spacing: 1px;
   font-family: 'Lato';
 font-style: normal;
-/*font-weight: 200;*/
 font-size: 4em;
 
 animation: fadein;
@@ -56,34 +44,9 @@ animation: fadein;
     animation-direction: initial;
     animation-fill-mode: forwards;
     animation-play-state: initial;
-
-
-   /*color: rgb(0,0,0)*/
-
 }
 
-#special-h2 {
-		opacity: 0;
 
-	display: block;
-
-animation: fadein;
-    animation-name: fadein;
-    animation-duration: 0.6s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.6s;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: forwards;
-    animation-play-state: initial;
-
-    font-family: 'Lato';
-  /*font-style: normal;*/
-  font-weight: 200;
-  font-size: 2em;
-   /*color: rgb(103,95,90)*/
-   /*color: rgb(0,0,0)*/
-}
 
 #footer {
     opacity: 0;
@@ -93,7 +56,6 @@ animation: fadein;
     margin-top : 40px;
     margin-bottom: 80px;
     align-content:center;
-    /*width: 100%;*/
     display: block;
     transform: translateX(100%);
 
@@ -118,16 +80,6 @@ button{
 }
 
 
-/*
-#special-h1:hover {
-	color: red;
-	cursor: pointer;
-}
-*/
-
-a:visited {
-    /*color: #000;*/
-}
 a {
     color: #000;
     text-decoration: underline;
@@ -137,81 +89,16 @@ a:hover {
 }
 
 
-/*#special-p{
-	margin: 1.8em 0 0 0;
-			opacity: 0;
-
-animation: fadein;
-    animation-name: fadein;
-    animation-duration: 0.9s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.9s;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: forwards;
-    animation-play-state: initial;
-
-
-
-font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-      font-size: 1.0em;
-      display: block;
-  color: rgba(103,95,90,0.8)
-
-}*/
-
-/*#special-p1{
-
-  opacity: 0;
-
-animation: fadein;
-    animation-name: fadein;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 1.3s;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    animation-fill-mode: forwards;
-    animation-play-state: initial;
-    padding-bottom: 10%;
-
-
-
-
-font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-      font-size: 1em;
-
-  color: rgba(103,95,90,0.8)
-
-}*/
-
-
-
-/*#main {
-
-		max-width: 40em;
-    margin: 10% auto 0 auto;
-
-}*/
-
+/*animations*/
 @keyframes fadein
 {
 	0% {
     opacity: 0;
-    /*transform: translateY(-20px);*/
+   
 }
 100% {
     opacity: 1;
-    /*transform: translateY(0);*/
+   
 }
 }
 
-
-/* Sets text enclosed within span tag
-   to be one step lighter than the parent. */

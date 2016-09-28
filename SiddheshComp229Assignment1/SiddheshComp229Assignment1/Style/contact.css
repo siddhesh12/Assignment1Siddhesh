@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 
-/*for selecting text background*/
 ::selection {
   background: rgb(255,255,102);
 }
@@ -16,9 +15,6 @@ span{
 }
 #contactMe {
 
-  /*overflow: auto;*/
-
-  /*opacity: 0;*/
 
   max-width: 100%;
   overflow-x: hidden;
@@ -33,15 +29,6 @@ span{
   margin-left: 5%;
   margin-right: 5%;
 
-  /*animation: fadein;
-      animation-name: fadein;
-      animation-duration: 0.6s;
-      animation-timing-function: ease-in-out;
-      animation-delay: 0.6s;
-      animation-iteration-count: 1;
-      animation-direction: initial;
-      animation-fill-mode: forwards;
-      animation-play-state: initial;*/
 }
 
 #myContactInfo
@@ -74,10 +61,6 @@ span{
 #form
 {
   display: block;
-
-
-  /*max-width: 100%;*/
-
 }
 
 #inputField{
@@ -98,7 +81,6 @@ span{
 
 
   max-width: 100%;
-  /*overflow-x: hidden;*/
   display: flex;
 position:relative;
   font-family: 'Lato';
@@ -109,38 +91,10 @@ position:relative;
   height : 40px;
   margin-top : 40px;
   margin-bottom: 80px;
-  /*left: 50%;*/
-  /*margin-right: -50%;*/
   justify-content: center;
 
-
-
-
-  /*bottom : 20px;
-  height : 40px;
-  margin-top : 40px;
-  margin-bottom: 80px;
-  position:relative;
-  font-family: Light;
-  height:40px;
-  font-size:15px;
-  padding:0 2em;*/
 }
 
-
-
-
-/* unvisited link */
-/*a:link {
-    color: red;
-}*/
-
-/* visited link */
-/*a:visited {
-    color: green;
-}
-
-/* mouse over link */
 
 a {
 color: #F36D49;
@@ -157,10 +111,8 @@ p.link{
 {
 	0% {
     opacity: 0;
-    /*transform: translateY(-20px);*/
 }
 100% {
     opacity: 1;
-    /*transform: translateY(0);*/
 }
 }

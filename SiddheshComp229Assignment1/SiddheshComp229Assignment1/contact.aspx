@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="SiddheshComp229Assignment1.contact" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="SiddheshComp229Assignment1.contact" %> 
+<!--this is refered from google fonts -->
 
 <!DOCTYPE html>
 
@@ -16,8 +17,7 @@
 
     <div id= contactMe>
       <center><p>Where to find me? </p></center>
-      <!-- <p>I am currently <span>available</span> for part-time iOS and OS X consulting work using Swift and Objective-C.
-        Please contact me to discuss projects, rates, timeframes, and other details.</p> -->
+    
     </div>
     <div id=myContactDetail>
     <p>I am currently <span>available</span> for part-time iOS and OS X consulting work using Swift and Objective-C.
@@ -38,7 +38,6 @@
     <h1 id= inputField><input type="submit" value="Submit"></h1>
     </form>
     </div>
-
 
 
     <div id = bottomLink>
