@@ -4,10 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
- 
+      <title>Siddhesh</title>
+
 </head>
 <body>
-     <title>Siddhesh</title>
 
     <link rel="stylesheet" type="text/css" href="style/home.css">
     <link rel="stylesheet" type="text/css" href="style/profession.css">

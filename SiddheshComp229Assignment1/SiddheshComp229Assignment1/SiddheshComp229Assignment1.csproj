@@ -111,6 +111,7 @@
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\mm.png" />
     <Content Include="Assets\resumeFilled.png" />
+    <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
     <Content Include="nn.aspx" />
     <Content Include="resume.aspx" />
@@ -124,6 +125,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
